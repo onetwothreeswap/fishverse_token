@@ -1,0 +1,21 @@
+{
+  "name": "fishverse-token",  
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "hardhat compile",
+    "console": "hardhat console",
+    "matic:deploy": "hardhat --network matic deploy",
+    "test": "hardhat test --verbose"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.4",
+    "hardhat": "^2.21.0",
+    "hardhat-deploy": "^0.12.1"
+  },
+}
