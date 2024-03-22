@@ -17,5 +17,5 @@
     "@nomicfoundation/hardhat-verify": "^2.0.4",
     "hardhat": "^2.21.0",
     "hardhat-deploy": "^0.12.1"
-  },
+  }
 }
